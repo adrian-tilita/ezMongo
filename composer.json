@@ -1,0 +1,26 @@
+{
+    "name" : "adrian-tilita/ezmongobundle",
+    "description" : "A MongoDB Bundle Wrapper for Symfony 3 and PHP 7",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Adrian Tilita",
+        "email" : "adrian@tilita.ro"
+    }],
+    "keywords" : [
+        "mongo bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=7.0.0",
+        "symfony/symfony": "3.0.*",
+        "mongodb/mongodb": "^1.0.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "ezmongo\\ezMongo" : ""
+        }
+    },
+    "target-dir" : "ezmongo/ezMongo"
+}
